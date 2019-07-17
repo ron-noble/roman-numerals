@@ -32,4 +32,9 @@ public class RomanToDecimalTests {
     public void shouldConvertMCMLXXXVIIto1987() {
         assertEquals(1987, romanNumeralService.romanToDecimal("MCMLXXXVII"));
     }
+
+    @Test
+    public void shouldConvertMMDCCCLXXXVIIIto2888() {
+        assertEquals(2888, romanNumeralService.romanToDecimal("MMDCCCLXXXVIII"));
+    }
 }
